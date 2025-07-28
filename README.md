@@ -1,4 +1,4 @@
-# 🛍️ TypeScript Product API
+# TypeScript Product API
 
 REST API for managing products in an e-commerce platform.
 
@@ -12,22 +12,22 @@ REST API for managing products in an e-commerce platform.
 
 ## Endpoints
 
-1) GET /products
+GET /products
 Get all products
 
 `curl http://localhost:3000/products`
 
-2) Optional filter ?category=
+GET /products?category=
 Get all products from category
 
 `curl http://localhost:3000/products?category=electronics`
 
-3) GET /products/:id
+GET /products/:id
 Get a single product by ID
 
 `curl http://localhost:3000/products/1`
 
-4) POST /products
+POST /products
 Add a new product
 
 `curl -X POST http://localhost:3000/products \`
@@ -36,12 +36,12 @@ Add a new product
 
 ## Installation:
 
-# Install dependencies
+#### Install dependencies
 npm install
 
-# Start in dev mode
+#### Start in dev mode
 npm run dev
 
-# OR build and run
+#### OR build and run
 npm run build
 npm start
