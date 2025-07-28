@@ -16,9 +16,11 @@ https://productapi-9986.postman.co/workspace/ProductAPI~7c945dfa-0652-4131-8001-
 ## Endpoints
 
 GET /products (get all products)
+
 `curl http://localhost:3000/products`
 
 GET /products?category= (get all products from category)
+
 `curl http://localhost:3000/products?category=electronics`
 
 GET /products/:id (get a single product by ID)
