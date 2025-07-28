@@ -1,4 +1,4 @@
-# TypeScript Product API
+# Product API demo
 
 REST API for managing products in an e-commerce platform.
 
