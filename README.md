@@ -30,18 +30,16 @@ Get a single product by ID
 POST /products
 Add a new product
 
-`curl -X POST http://localhost:3000/products \`
-`  -H "Content-Type: application/json" \`
-`  -d '{"title":"...","price": 1,"description":"...","category":"...","image":"...","rating":{"rate":1,"count":1}}'`
+`curl -X POST http://localhost:3000/products -H "Content-Type: application/json" -d '{"title":"...","price": 1,"description":"...","category":"...","image":"...","rating":{"rate":1,"count":1}}'`
 
 ## Installation:
 
 #### Install dependencies
-npm install
+`npm install`
 
 #### Start in dev mode
-npm run dev
+`npm run dev`
 
-#### OR build and run
-npm run build
-npm start
+#### Or build and run
+`npm run build`
+`npm start`
